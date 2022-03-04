@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+}
+
+group 'com.github.nickaleatorioo'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.checkerframework:checker-qual:3.21.3'
+}
